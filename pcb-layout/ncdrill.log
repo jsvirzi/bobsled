@@ -1,0 +1,62 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : bobsled.brd                                   )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Mon Jul 19 18:58:29 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		5.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+
+
+ Drill files being output to directory 'f:/projects/bobsled/pcb-layout' ...
+
+
+
+     'bobsled-1-2.drl' created for holes connecting TOP and BOTTOM
+     -------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.   0.3302    0.0000/  0.0000      PLATED         16
+            2.   1.5000    0.0000/  0.0000      PLATED         48
+            3.   2.0000    0.0000/  0.0000      PLATED          1
+            4.   2.0000    0.0500/  0.0500      PLATED          1
+            5.   0.5000    0.0000/  0.0000  NON_PLATED         84
+            6.   0.7500    0.0000/  0.0000  NON_PLATED         12
+            7.   2.2000    0.0000/  0.0000  NON_PLATED          1
+            8.   2.7000    0.0000/  0.0000  NON_PLATED          1
+            9.   3.4000    0.0000/  0.0000  NON_PLATED          2
+
+     ---- Total holes:                                        166
+
+     ---- Total head travel:              4.15 feet (1.26 meters)
+
